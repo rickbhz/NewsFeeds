@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">News Feeds</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_lista">Lista</string>
-
+    <string name="title_activity_feed">Feeds</string>
+    <string name="feedlist_ultimasnoticas">UltimasNoticias</string>
+    <string name="feedlist_mundo">Mundo</string>
+    <string name="feedlist_brasil">Brasil</string>
+    <string name="feedlist_ciencia">Ciencia</string>
+    <string name="feedlist_entretenimento">Entretenimento</string>
+    <string name="feedlist_esporte">Esporte</string>
+    <string name="feedlist_saude">Saude</string>
+    <string name="feedlist_economia">Economia</string>
 </resources>

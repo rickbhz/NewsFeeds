@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bellabiango/Downloads/NewsFees/app/libs/volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/Users/bellabiango/Downloads/NewsFees/app/build/intermediates/pre-dexed/debug/volley-f1e73df00fd2e057b722b0adf2b9e5b7b062c123.jar" />
+    </item>
+
+</items>

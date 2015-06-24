@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="newsfeed.projetouna.com.newsfees"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="newsfeed.projetouna.com.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="newsfeed.projetouna.com.newsfeed.Capa"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="newsfeed.projetouna.com.newsfeed.FeedList"
+            android:label="@string/title_activity_lista"
+            android:parentActivityName="newsfeed.projetouna.com.newsfeed.Capa" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="newsfeed.projetouna.com.newsfees.Capa" />
+        </activity>
+        <activity
+            android:name="newsfeed.projetouna.com.newsfeed.FeedItem"
+            android:label="@string/title_activity_feed" >
+        </activity>
+    </application>
+
+</manifest>
